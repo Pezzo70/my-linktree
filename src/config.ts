@@ -28,7 +28,7 @@ export interface SpotifyConfig {
 export const profileConfig: ProfileConfig = {
   name: "Gabriel Pezzo",
   bio: "Developer, creator, and music enthusiast. Building amazing things one line at a time.",
-  avatar: "https://cdn3.vectorstock.com/i/1000x1000/61/72/nerd-face-emoji-clever-emoticon-with-glasses-vector-28926172.jpg"
+  avatar: "/my-linktree/profile.jpg"
 };
 
 export const linksConfig: LinkConfig[] = [
@@ -59,7 +59,7 @@ export const linksConfig: LinkConfig[] = [
     ]
   },
   {
-    id: '5',
+    id: '6',
     title: 'Curriculum Vitae',
     icon: '📄',
     iconType: 'emoji',
@@ -67,7 +67,7 @@ export const linksConfig: LinkConfig[] = [
     url: "",
     subLinks: [
       {
-        id: '5.1',
+        id: '6.1',
         title: 'Português',
         url: '/my-linktree/cvpezzo_ptbr.pdf',
         icon: '🇧🇷',
@@ -75,7 +75,7 @@ export const linksConfig: LinkConfig[] = [
         category: 'main'
       },
       {
-        id: '5.2',
+        id: '6.2',
         title: 'English',
         url: '/my-linktree/cvpezzo_en.pdf',
         icon: '🇺🇸',
@@ -87,7 +87,7 @@ export const linksConfig: LinkConfig[] = [
   {
     id: '2',
     title: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/Pezzo70',
     icon: 'github',
     iconType: 'brand',
     category: 'main'
@@ -95,19 +95,27 @@ export const linksConfig: LinkConfig[] = [
   {
     id: '3',
     title: 'LinkedIn',
-    url: 'https://linkedin.com/in/yourusername',
+    url: 'https://www.linkedin.com/in/gabriel-pezzo-501694222/',
     icon: 'linkedin',
     iconType: 'brand',
     category: 'main'
-  },
+  },  
   {
     id: '4',
-    title: 'Twitter',
-    url: 'https://twitter.com/yourusername',
-    icon: 'twitter',
+    title: 'WhatsApp',
+    url: 'https://wa.me/5513997194204',
+    icon: 'whatsapp',
     iconType: 'brand',
     category: 'main'
-  }  
+  },  
+  {
+    id: '5',
+    title: 'Email',
+    url: 'mailto:gabriel.pezzo@gmail.com',
+    icon: '📧',
+    iconType: 'emoji',
+    category: 'main'
+  }
 ];
 
 export const spotifyConfig: SpotifyConfig = {
