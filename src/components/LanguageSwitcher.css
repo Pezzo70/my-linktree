@@ -1,0 +1,109 @@
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 8px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.language-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: auto;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.language-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-1px);
+}
+
+.language-button.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.language-switcher:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.flag {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .language-switcher {
+    position: relative;
+    top: auto;
+    right: auto;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  .language-button {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  
+  .flag {
+    font-size: 14px;
+  }
+  
+  .label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .language-switcher {
+    margin: 12px 0;
+    padding: 6px;
+  }
+  
+  .language-button {
+    padding: 6px 8px;
+    gap: 4px;
+  }
+  
+  .label {
+    display: none; /* Hide labels on very small screens, show only flags */
+  }
+}
