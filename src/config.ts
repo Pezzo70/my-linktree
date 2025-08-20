@@ -70,7 +70,7 @@ export const linksConfig: LinkConfig[] = [
         id: '5.1',
         title: 'Português',
         url: '/my-linktree/cvpezzo_ptbr.pdf',
-        icon: '📄🇧🇷',
+        icon: '🇧🇷',
         iconType: 'emoji',
         category: 'main'
       },
@@ -78,7 +78,7 @@ export const linksConfig: LinkConfig[] = [
         id: '5.2',
         title: 'English',
         url: '/my-linktree/cvpezzo_en.pdf',
-        icon: '📄🇺🇸',
+        icon: '🇺🇸',
         iconType: 'emoji',
         category: 'main'
       }
