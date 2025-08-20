@@ -68,17 +68,17 @@ export const linksConfig: LinkConfig[] = [
     subLinks: [
       {
         id: '5.1',
-        title: 'Português 🇧🇷',
-        url: '/cvpezzo_ptbr.pdf',
-        icon: '📄',
+        title: 'Português',
+        url: '/my-linktree/cvpezzo_ptbr.pdf',
+        icon: '📄🇧🇷',
         iconType: 'emoji',
         category: 'main'
       },
       {
         id: '5.2',
-        title: 'English 🇺🇸',
-        url: '/cvpezzo_en.pdf',
-        icon: '📄',
+        title: 'English',
+        url: '/my-linktree/cvpezzo_en.pdf',
+        icon: '📄🇺🇸',
         iconType: 'emoji',
         category: 'main'
       }
