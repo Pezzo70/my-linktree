@@ -214,7 +214,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Icons from [Emoji](https://emojipedia.org)
 - Background patterns and animations
 - Spotify Web API for music integration
-
----
-
-Made with ❤️ by [Your Name]
