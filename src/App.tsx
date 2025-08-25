@@ -6,21 +6,24 @@ import Profile from './components/Profile';
 import { GoatCounterProvider } from './components/GoatCounterProvider';
 import { LanguageProvider } from './contexts/LanguageContext';
 import LanguageSwitcher from './components/LanguageSwitcher';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
-    <LanguageProvider>
-      <GoatCounterProvider>
-        <div className="App">
-          <LanguageSwitcher />
-          <div className="container">
-            <SpotifyWidget />
-            <Profile />
-            <LinkTree />
+    <ErrorBoundary>
+      <LanguageProvider>
+        <GoatCounterProvider>
+          <div className="App">
+            <LanguageSwitcher />
+            <div className="container">
+              <SpotifyWidget />
+              <Profile />
+              <LinkTree />
+            </div>
           </div>
-        </div>
-      </GoatCounterProvider>
-    </LanguageProvider>
+        </GoatCounterProvider>
+      </LanguageProvider>
+    </ErrorBoundary>
   );
 }
 
