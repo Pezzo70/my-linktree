@@ -35,9 +35,7 @@ export const linksConfig: LinkConfig[] = [
   {
     id: '1',
     title: 'Digital Garden',
-    url: 'https://gabrielpezzo.dev',
-
-
+    url: 'https://www.gabrielpezzo.dev',
     icon: '🪴',
     iconType: 'brand',
     category: 'expandable',
@@ -45,7 +43,7 @@ export const linksConfig: LinkConfig[] = [
       {
         id: '1.1',
         title: 'Posts',
-        url: 'https://gabrielpezzo.dev/digital-garden/posts',
+        url: 'https://www.gabrielpezzo.dev/posts/',
         icon: '✍️',
         iconType: 'emoji',
         category: 'main'
@@ -53,7 +51,7 @@ export const linksConfig: LinkConfig[] = [
       {
         id: '1.2',
         title: 'Notes',
-        url: 'https://www.gabrielpezzo.dev/digital-garden/notes',
+        url: 'https://www.gabrielpezzo.dev/notes/',
         icon: '📝',
         iconType: 'emoji',
         category: 'main'
