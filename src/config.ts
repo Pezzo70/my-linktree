@@ -40,6 +40,15 @@ export const linksConfig: LinkConfig[] = [
     iconType: 'brand',
     category: 'expandable',
     subLinks: [
+      
+      {
+        id: '1.3',
+        title: 'Home',
+        url: 'https://www.gabrielpezzo.dev',
+        icon: '🏠',
+        iconType: 'emoji',
+        category: 'main'
+      },
       {
         id: '1.1',
         title: 'Posts',
@@ -55,7 +64,7 @@ export const linksConfig: LinkConfig[] = [
         icon: '📝',
         iconType: 'emoji',
         category: 'main'
-      }
+      },
     ]
   },
   {
