@@ -27,7 +27,7 @@ export interface SpotifyConfig {
 
 export const profileConfig: ProfileConfig = {
   name: "Gabriel Pezzo",
-  bio: "Developer, creator, and music enthusiast. Building amazing things one line at a time.",
+  bio: "Software Engineer. Building amazing things one line at a time.",
   avatar: "/my-linktree/profile.jpg"
 };
 
