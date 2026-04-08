@@ -104,7 +104,7 @@ export const linksConfig: LinkConfig[] = [
   {
     id: '3',
     title: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/gabriel-pezzo-501694222/',
+    url: 'https://www.linkedin.com/in/gabriel-pezzo-dev/',
     icon: 'linkedin',
     iconType: 'brand',
     category: 'main'
